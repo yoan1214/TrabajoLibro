@@ -1,0 +1,135 @@
+nav {
+    background-color: #006600; /* un verde oscuro */
+    color: #fff;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #006600; /* un verde oscuro */
+    border-top: 2px solid #fff;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul li a {
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul ul li:hover {
+    background-color: #008000;
+  }
+  
+  nav ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+  nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  /* establecer el fondo de la página */
+  body {
+    background-color: #e6ffe6; 
+    text-align: justify;
+    padding: 0 10px; 
+    margin: 0; 
+    max-width: 960px;
+    margin: 0 auto; /* centramos la página horizontalmente */
+  }
+  
+  .container {
+    column-count: 3; /* Dividimos el contenido en tres columnas */
+  }
+  
+  img {
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    float: none; 
+  
+  }
+  
+  p {
+    text-align: justify; 
+    padding: 0 10px; 
+    margin: 0; 
+    float: none; 
+     
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* estilo para los títulos */
+  h1, h2, h3 {
+    color: #ff6600; 
+    font-family: 'Times New Roman', serif;
+    text-align: center; /* centramos los títulos horizontalmente */
+  }
+  
+  footer {
+    background-color: #006600;;
+    color: #fff;
+    padding: 2px;
+  }
+  .section-two-columns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-two-columns .column {
+    width: 50%;
+    padding: 0 20px;
+  }
+  
+  /* Estilos para los enlaces visitados */
+  a:visited {
+    color: #ffcc99;
+  }/* Estilos para carrusel */
+  .carousel {
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    display: none;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .carousel img:first-child {
+    display: block;
+  }
+  
